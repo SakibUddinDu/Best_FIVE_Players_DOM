@@ -24,8 +24,14 @@ function addToCart(e) {
     const player=document.createElement('li');
     for (let i = 0; i < players.length; i++) {
         player.innerText=players[i];
-        ul.appendChild(player);  
+        if (players.length<=5) {
+            ul.appendChild(player);  
+        }else{
+            alert("You can't add more than 5 people")
+        }
+         
     }
+    e.target.setAttribute("disabled", '');
 }
 for (let i = 0; i < selectButtons.length; i++) {
     const btn = selectButtons[i];
