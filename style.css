@@ -1,0 +1,40 @@
+.header {
+  background-color: black;
+  color: white;
+}
+.header h1 {
+  font-family: "Berkshire Swash";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 76px;
+  line-height: 94px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ff5e19;
+}
+.custom-btn {
+  min-width: 100%;
+}
+.characteristics p {
+  color: #b3b3b3;
+}
+label {
+  font-weight: 600;
+}
+.half-width img {
+  width: 100%;
+}
+.input-group {
+  margin: 20px 0;
+}
+.form-container {
+  padding: 0 10%;
+}
+#calculate_btn,
+#calculate_total_btn {
+  min-width: 100%;
+}
+
+ul li {
+  list-style: none;
+}
